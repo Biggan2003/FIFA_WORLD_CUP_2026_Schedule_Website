@@ -6,6 +6,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-Exclusive_Copyright-red?style=for-the-badge)](#-license)
 
+## 🌐 Live Application
+You can interact with the live deployment here: https://fifa-world-cup-2026-schedule-websit.vercel.app/
 
 ![Front_Page](/readmefile_picture/image.png)
 ...
@@ -77,3 +79,19 @@ Managing large-scale tournament data dynamically while keeping fans engaged can 
 ├── package.json               # Manifest file indexing dependencies, project metadata, and core scripts
 ├── tsconfig.json              # Advanced TypeScript compiler rules and resolution guidelines
 └── vite.config.ts             # Custom core configuration parameters for the Vite bundling engine
+
+```
+
+
+---
+
+## 📝 Developer Notes & Behind-the-Scenes (আমার কিছু কথা)
+
+ভবিষ্যতে এই প্রজেক্টে আবার কাজ করার জন্য এবং আমার ডেভ জার্নিটা মনে রাখার জন্য কিছু গুরুত্বপূর্ণ নোট 
+
+1. Vercel diye live kora ace ,,, ar vercel  gm....n@gmail  diye khola ,,
+2. github theke direct vercel connect kore github thke direct code vercel e host hocche . 
+All Done 
+3. Date: 1st FIFA World Cup Match Night 😁 12 June 2026   , 1 rat er moddhei project create kora shate abar deploy kora
+
+
