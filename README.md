@@ -6,6 +6,15 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-Exclusive_Copyright-red?style=for-the-badge)](#-license)
 
+
+![Front_Page](/readmefile_picture/image.png)
+...
+...
+
+
+
+![alt text](/readmefile_picture/image1.png)
+
 An ultra-modern, high-performance, and interactive web application designed for football enthusiasts to track the **FIFA World Cup 2026** match schedules, cast live fan votes, and view premium custom match features. Built entirely using an **AI-Native Workflow**, this platform delivers a seamless, responsive, and immersive experience tailored specifically with automated timezone localization.
 
 ---
