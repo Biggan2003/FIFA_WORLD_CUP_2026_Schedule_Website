@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Hind Siliguri', 'Inter', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'Hind Siliguri', sans-serif;
+  --stadium-green: #041d14;
+  --grass-green: #0a3d2a;
+  --gold: #facc15;
+}
+
+:root {
+  --stadium-green: #041d14;
+  --grass-green: #0a3d2a;
+  --gold: #facc15;
+  --white: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* Stadium background mesh and custom scrollbars for Sophisticated Dark */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--stadium-green);
+  background-image: radial-gradient(circle at center, #0a4d35 0%, #041d14 100%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* Custom gorgeous neon glow & badge highlights */
+.gold-glow {
+  box-shadow: 0 0 15px -3px rgba(250, 204, 21, 0.4);
+}
+
+.green-glow {
+  box-shadow: 0 0 20px -5px rgba(10, 61, 42, 0.5);
+}
+
+.gold-text {
+  color: var(--gold);
+}
+
+.gold-border {
+  border: 1px solid var(--gold);
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-2px);
+  border-color: rgba(250, 204, 21, 0.3);
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.match-banner {
+  height: 80px;
+  background-color: #0d4a33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-image-placeholder {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+}
+
+.progress-bar-glow {
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.3);
+}
+
+/* Pulse effects for live/active widgets */
+@keyframes neon-pulse {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+.live-pulse {
+  animation: neon-pulse 2s infinite ease-in-out;
+}
+

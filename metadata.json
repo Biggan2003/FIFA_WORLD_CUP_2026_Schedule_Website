@@ -1,0 +1,6 @@
+{
+  "name": "2026 World Cup Schedule & Fan Zone",
+  "description": "A highly interactive 2026 Football World Cup Match Schedule in Bangladesh Standard Time (BST). Features Argentina & Brazil fan zones, countdown timers, search, filter, local-storage voting engine with custom Bengali messages, and picture support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
