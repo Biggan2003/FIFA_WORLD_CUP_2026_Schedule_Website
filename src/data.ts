@@ -27,7 +27,7 @@ export const MATCHES_DATA: Match[] = [
     stadium: 'মেটলাইফ স্টেডিয়াম, নিউ ইয়র্ক',
     group: 'Group C',
     // 📸 ছবি বসানোর জায়গা (নিচের ফাঁকা কোটেশনে ছবির লিংক দিন)
-    image: '/pictures/brazil1.jpg', 
+    image: './pictures/brazil1.jpg', 
     seedVotes1: 23540,
     seedVotes2: 7840,
     seedPercent1: 75,
