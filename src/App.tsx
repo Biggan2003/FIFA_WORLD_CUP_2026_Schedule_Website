@@ -963,7 +963,7 @@ export default function App() {
         {/* বড় ফ্রেম (Big Frame) */}
         <div className="w-full h-[350px] md:h-[550px] rounded-xl overflow-hidden border border-emerald-700/20 shadow-inner relative group">
           <img 
-            src="/Pictures/2026-World-Cup-group-stage-structure.webp"  // 👈 public/Pictures/ ফোল্ডারে থাকা তোমার ছবির নাম
+            src="/pictures/bb.webp"  // 👈 public/Pictures/ ফোল্ডারে থাকা তোমার ছবির নাম
             alt="FIFA Big Frame Banner" 
             className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700 ease-out"
             onError={(e) => {
@@ -1001,7 +1001,7 @@ export default function App() {
         {/* বড় ফ্রেম (Big Frame) */}
         <div className="w-full h-[350px] md:h-[550px] rounded-xl overflow-hidden border border-emerald-700/20 shadow-inner relative group">
           <img 
-            src="/Pictures/8902e269f07a96fa96ce8849ddc3878f.jpg"  // 👈 public/Pictures/ ফোল্ডারে থাকা তোমার ছবির নাম
+            src="/pictures/aa.jpg"  // 👈 public/Pictures/ ফোল্ডারে থাকা তোমার ছবির নাম
             alt="FIFA Big Frame Banner" 
             className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700 ease-out"
             onError={(e) => {
